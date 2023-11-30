@@ -34,7 +34,7 @@ def load_emotion_model():
     emotion_model.add(Dense(7, activation='softmax'))
 
     # Load pre-trained weights for the model
-    emotion_model.load_weights('emotion_model.h5')
+    emotion_model.load_weights('src\emotion_model.h5')
     return emotion_model
 
 def init_streamlit():
